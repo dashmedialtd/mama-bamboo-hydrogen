@@ -85,7 +85,7 @@ const Homepage = () => {
           alignment="center"
           marginBottom={50}
         />
-        <ProductSlider products={returnData.data.products.nodes} />
+        {/* <ProductSlider products={returnData.data.products.nodes} /> */}
       </Section>
     </Layout>
   );
