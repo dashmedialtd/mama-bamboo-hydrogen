@@ -1,0 +1,57 @@
+@import url(https://use.typekit.net/ckj8cfb.css);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variables */
+:root {
+  --height-nav: 120px;
+}
+
+html {
+  font-family: Omnes;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  @apply bg-white text-text;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-family: MilkAndHoney;
+}
+
+h1 {
+  font-size: 5.75rem;
+}
+
+h2 {
+  font-size: 3.75rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.slick-slider {
+  display: flex !important;
+  align-items: center;
+}
+
+.slick-slider svg {
+  color: black;
+  position: relative !important ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.slick-slider svg:hover {
+  color: black !important;
+}
